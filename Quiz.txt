@@ -1,0 +1,30 @@
+Quiz 1
+Selain menggunakan pd.read_csv() untuk membaca file pada Pandas. Apa sajakah fungsi yang bisa digunakan?
+a.pd.read_xls()
+b.pd.read_pickle()
+c.pd.read_txt()
+d.pd.read_bigquery()
+e.pd.read_pdf()
+Jawaban (b)
+
+Quiz 2
+Regular Expression yang paling tepat untuk menangkap pattern com yang merupakan domain email dari string
+professional.academy@dqlab.com adalah?
+a.com
+b.[com]
+c.c|o|m
+d.^com
+e.^com$
+Jawaban (a)
+
+Quiz 3
+Kita tahu bahwa kolom participant_id pada dataset Peserta DQThon terdiri dari kumpulan huruf dan angka serta simbol strip ( - ).
+Jika kita hanya ingin menyisakan angkanya saja, kode program manakah dibawah ini yang tepat untuk melakukan hal itu?
+*Note: hasil dari transformasi ini disimpan ke kolom baru bernama participant_number)
+a.df_participant['participant_number'] = df_participant['participant_id'].str.replace(r'[a-zA-Z-]', '')
+b.df_participant['participant_number'] = df_participant['participant_number'].str.replace(r'[a-zA-Z-]', '')
+c.df_participant['participant_number'] = df_participant['participant_id'].str.replace(r'[\w+-]', '')
+d.df_participant['participant_number'] = df_participant['participant_id'].str.replace(r'\d+', '')
+e.df_participant['participant_number'] = df_participant['participant_id'].str.replace(r'[\d+-]', '')
+Jawaban (a)
+
